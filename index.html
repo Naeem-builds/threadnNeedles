@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Thread_n_needles</title>
+    <link rel="icon" type="images/favico" href="images/favico.ico">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Beth+Ellen&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nova+Cut|Nova+Script&display=swap" rel="stylesheet">
+    
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="css/style_index.css">
     <link rel="stylesheet" href="css/merlin.css">
     <link rel="stylesheet" href="css/demo.css">
@@ -41,6 +44,9 @@
       <div class="index-main-img">
         <a href="merlin.html"><img id="main-index-img" src="images/index-img/Off-the-Wall.jpg" alt="" srcset=""></a> 
       </div>
+      <a href="https://wa.me/+923114693443?text=Hello%20there!" target="_blank" class="whatsapp-button">
+        <i class="fab fa-whatsapp">WhatsApp/i>
+    </a>
       
       <br>
 
@@ -141,6 +147,15 @@
     <br>
   <!-- FOOTER -->
 
-  <script type="text/javascript" src="js/nav.js"></script>
+  <script type="text/javascript" src="js/nav.js">
+    window.addEventListener('scroll', function() {
+    const button = document.querySelector('.whatsapp-button');
+    if (window.scrollY > 100) {
+        button.style.display = 'block';
+    } else {
+        button.style.display = 'none';
+    }
+});
+  </script>
   </body>
 </html>

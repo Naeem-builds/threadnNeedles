@@ -26,6 +26,25 @@ img{
     display: flex;
     flex-wrap: wrap;
 }
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #16BE45;
+    border-radius: 40px;
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 24px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    color: whitesmoke;
+}
+
+/* .whatsapp-button img {
+    width: 30px;
+    height: 30px;
+} */
+
 
 @media only screen and (max-width:748px){
     .index-main-img{
