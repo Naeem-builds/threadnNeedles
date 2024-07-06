@@ -13,29 +13,67 @@
     height: 400px;
   }
 @media screen and (max-width:992px) and (min-width:777px){
+    .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
     .vl{
-        height:280px;
+        display: none;
+    }
+    .login-image{
+        display: none;
     }
 }
 @media screen and (max-width:778px) and (min-width:591px){
+    .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
     .vl{
-        height:200px;
+        display: none;
+    }
+    .login-image{
+        display: none;
     }
 }
 @media screen and (max-width:592px) and (min-width:421px){
+    .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
     .vl{
-        height:170px;
+        display: none;
+    }
+    .login-image{
+        display: none;
     }
 }
 
 @media screen and (max-width:423px){
-    .vl{
-        height:120px;
+    .login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
+    .vl{
+        display: none;
+    }
+    .login-image{
+        display: none;
+    }   
 }
 .login-form{
     text-align: center;
     padding-bottom: 20px;
+    margin-top: 0;
+    margin-left: 20px;
    
 }
 .login-button{
